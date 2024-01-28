@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+    padding-top: 2.8em;
+    
+}
+
+.main-header {
+    background-color: rgb(26,30,31);
+    height: 82px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: backgroud-color 0.4s ease-in-out;
+}
+
+.main-nav {
+    padding: 360px;
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin: 1.5em;
+    transition: backgroud-color 0.4s ease-in-out;
+}
+
+header img {
+    margin-left: 460px;
+}
+
+.usaid_page {
+    color: rgb(17,151,224);
+}
+
+header nav a:hover {
+    color: rgb(17,151,224);
+}
+
+header.scrolled {
+    background-color: rgb(26,30,31, 0.9);
+}
+
+@media (max-width: 1700px) {
+    header img {
+        margin-left: 200px;
+    }
+    header nav {
+        padding: 160px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 1260px) {
+
+    header img {
+        margin-left: 10px;
+    }
+    header nav {
+        text-align: center;
+    }
+}
+
+@media (max-width: 982px) {
+    header img {
+        display: none;
+    }
+    header nav {
+        text-align: center;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 785px) {
+    header nav a {
+        display: none;
+    }
+    header img {
+        display: block;
+    }
+}
+
+/* section 1  */
+
+
+.background-img {
+    background-image: url('/images/background.webp');
+    height:390px;
+    background-size: cover;
+    display: block;
+}
+
+h1 {
+    color: white;
+    font-size: 42px;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 34px;
+}
+
+.title {
+    width: 696px;
+    padding: 80px 0px 0px 460px;
+}
+
+.section1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* section 2 */
+
+.p2 {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    line-height: 1.4;
+}
+.section2 {
+    background-color: #2b2b2b;
+    height: 470px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.stri {
+    width: 960px;
+    padding: 80px 0px 0px 460px;
+    
+}
+
+.more {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(17,151,224);
+    margin-left: 460px;
+}
+.more:hover {
+    color: #5c5a5a;
+}
+
+@media (max-width: 1260px) {
+    
+
+}
+
+
+/* section 3 */
+
+
+.main-section {
+    background-color: #161616;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 980px;
+    gap: 23px;
+    
+}
+
+.flex-item {
+    width: 300px;
+    height: 414px;
+    background-color: #161616;
+    border-radius: 2%;
+    border: 0.1px solid rgb(102, 100, 100);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+.title1 {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    color: white;
+}
+.details {
+margin-top: auto; 
+padding: 0px 100px 20px 0px;
+color: #00aeef;
+}
+
+.title3 {
+    color: white;
+    margin: 0;
+    padding: 20px 0px 0px 460px;
+}
+
+/* section 4 */ 
+
+
+.section4 {
+    height: 360px;
+    width: 100%;
+    position: relative;
+    background-color: #2b2b2b;
+}
+
+
+.slider-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.slider-img {
+    width: 100%;
+    display: none;
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+}
+
+.prev {
+    left: 10px; 
+}
+
+.next {
+    right: 10px; 
+}
+
+
+.circles {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #333;
+}
+
+
+
+
+/* section 5 */
+
+.section5 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+  .black-section {
+    background-color: #161616;
+    height: 480px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .accordion {
+    width: 900px;
+    text-align: left;
+  }
+
+  .accordion-title {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .title-left {
+    order: 1;
+  }
+
+  .title-right {
+    order: 2;
+  }
+
+  .question {
+    background-color: #161616;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #222; 
+    border-left: none; 
+    border-right: none; 
+    border-top: none; 
+  }
+
+  .answer {
+    display: none;
+    padding: 10px;
+    background-color: #161616;
+    color: #fff;
+  }
+
+  .arrow1 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+  }
+
+  .open .arrow1 {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+
+
+  /* footer */
+
+  .footer {
+    background-color: #1a1e1f;
+    height: 230px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.footer-content {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo p {
+    margin: 0;
+    color: white;
+}    
+.footer-logo a {
+    display: block;
+    text-decoration: none;
+}
+.footer-logo img {
+    height: 50px;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+}
+.right-section .logo img {
+    margin-right: 10px; 
+}
+.contact-button {
+    background-color: #3498db; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
